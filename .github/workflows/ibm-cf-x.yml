@@ -8,8 +8,8 @@ env:
 on:
   workflow_dispatch:
   repository_dispatch:
-  schedule:
-    - cron: 0 20 * * 4
+#  schedule:
+#    - cron: 0 20 * * 4
 
 jobs:
   deploy:
